@@ -7,13 +7,17 @@ body{
   margin: 0;
   background-color: #f4f4f4;
 }
-
-
   .container{
     width:80%;
     margin:auto;
     overflow:hidden;
+  }
 
+  .button_1{
+    height: 38px;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 /* Header **/
 header{
@@ -59,7 +63,48 @@ header nav{
 
 /* showcase */
 #showcase{
-  min-height:400px;
-  background:url('../img/banner-photo.jpg') no-repeat;
+  min-height:500px;
+  background:url('../img/banner-photo.jpg') no-repeat 0 -110px;
+  background-size: cover;
+  text-align: center;
+  color:#ffffff;
+}
 
+#showcase h1{
+  margin-top: 100px;
+  font-size: 55px;
+  margin-bottom: 10px;
+}
+
+
+#newsletter h1{
+  float: left;
+}
+
+#newsletter form{
+  float: right;
+  margin-top: 15px;
+}
+
+#newsletter input[type="email"]{
+  padding:4px;
+  height:25px;
+  width:250px;
+}
+
+#showcase p{
+  font-size: 20px;
+}
+
+/* boxes */
+
+#boxes{
+  margin-top: 20px;
+}
+
+#boxes .box{
+  float: left;
+  width: 30%;
+  padding: 10px;
+  text-align: center;
 }
